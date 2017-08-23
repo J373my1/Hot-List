@@ -1,0 +1,41 @@
+// 3 html pages
+1 - home
+2 -  View tables pages
+3- make reservations page
+
+
+*** btns are linking to diff html pages
+bootstrap
+jumbo tron with the header (same for every page)
+  subheader that changes text for each page
+
+  *home
+      - view table btn
+      -make reservation btn
+
+
+  *view tables page
+    -make reservation and home buttons
+    -2 forms
+        1 for current reservations
+        1 for waiting list
+
+  *make reservations
+    -2 btns home and view tables
+    -1 form for taking reservations
+        Name
+        phone
+        email
+        unique id
+        submit btn
+
+
+//Javascript
+home no javascript
+
+-view tables
+   - the tables are created in HTML
+        *content we have to create in js using AJAX (.get)
+
+-reservations
+  * user content we grab using AJAX (.post)
